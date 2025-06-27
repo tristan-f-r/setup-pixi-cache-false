@@ -17,6 +17,8 @@ jobs:
     name: Run test cases and workflow with cache
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
       - name: Install pixi - cache false
         uses: prefix-dev/setup-pixi@v0.8.10
         with:
