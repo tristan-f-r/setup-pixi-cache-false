@@ -7,7 +7,7 @@ version = "0.1.0"
 
 [tasks]
 
-[dependencies]
+[pypi-dependencies]
 "adjusttext" = "==0.7.3"
 "snakemake" = "==9.6.0"
 "docker" = "==6.1.0"
@@ -27,3 +27,6 @@ version = "0.1.0"
 "recommonmark" = "==0.7"
 "sphinx" = "==6.0"
 "graphspace_python" = "==1.3.1"
+
+[dependencies]
+python = ">=3.13.5,<3.14"
